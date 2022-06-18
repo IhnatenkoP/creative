@@ -1,0 +1,90 @@
+@import "bootstrap.css";
+$white_color: #ffffff;
+
+
+header{
+  z-index: 2;
+}
+  header p {
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    max-width: 202px;
+  }
+.phone_number{
+  display: inline-flex;
+  padding: 7px 27px 7px 33px;
+  border-radius: 35px;
+  border: 1px solid white;
+  margin-right: 23px;
+  width: 204px;
+  height: 36px;
+  justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+
+}
+.social{
+  display: inline-flex;
+  padding: 7px 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 36px;
+  height: 36px;
+  margin-right: 23px;
+  img{
+    margin: auto;
+  }
+}
+
+
+
+.main_section{
+  height: 100vh;
+}
+
+  .main_banner {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('../images/img_1.jpg');
+    position: relative;
+    z-index: 0 ;
+    &.item_2{
+      background-image: url('../images/img_2.jpg');
+      position: relative;
+      z-index: 0 ;
+    }
+    &.item_3{
+      background-image: url('../images/img_3.jpg');
+      position: relative;
+      z-index: 0 ;
+    }
+    &.item_4{
+      background-image: url('../images/img_4.jpg');
+      position: relative;
+      z-index: 0 ;
+    }
+  }
+.number_p{
+  font-family: '20 Kopeek Book';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  top: -30px;
+}
+
+.callback{
+  .form-check{
+    padding-left: 36px;
+  }
+}
+.firm_style{
+  padding-bottom: 134px;
+  padding-top: 68px;
+}
