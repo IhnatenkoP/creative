@@ -1,11 +1,13 @@
 @import "bootstrap.css";
+
 $white_color: #ffffff;
 
 
-header{
+header {
   z-index: 2;
-}
-  header p {
+  padding-top: 15px;
+
+   p {
     font-family: '20 Kopeek';
     font-style: normal;
     font-weight: 400;
@@ -14,6 +16,10 @@ header{
     color: #FFFFFF;
     max-width: 202px;
   }
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #FFFFFF;
+}
 .phone_number{
   display: inline-flex;
   padding: 7px 27px 7px 33px;
@@ -23,11 +29,9 @@ header{
   width: 204px;
   height: 36px;
   justify-content: center;
+  color: #FFFFFF;
 }
-.navbar-light .navbar-nav .nav-link{
-  color: white;
 
-}
 .social{
   display: inline-flex;
   padding: 7px 10px;
@@ -43,48 +47,116 @@ header{
 
 
 
-.main_section{
+.main_section {
   height: 100vh;
-}
+
+  .h-100 {
+    height: 100vh;
+  }
+
+  .container .row {
+    position: absolute;
+    z-index: 4;
+    padding-top: 269px;
+
+    h1 {
+      font-size: 55px;
+      line-height: 100%;
+      color: #181818;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 34px;
+      line-height: 110%;
+      color: #181818;
+      margin-bottom: 65px;
+    }
+
+    .btn {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #181818;
+      padding: 23px 47px;
+      margin-right: 20px;
+margin-bottom: 209px;
+    }
+
+  }
 
   .main_banner {
     height: 100vh;
     background-size: cover;
     background-image: url('../images/img_1.jpg');
     position: relative;
-    z-index: 0 ;
-    &.item_2{
+    z-index: 1;
+    animation-duration: 2s;
+
+
+    &.item_2 {
       background-image: url('../images/img_2.jpg');
       position: relative;
-      z-index: 0 ;
+      z-index: 1;
+
     }
-    &.item_3{
+
+    &.item_3 {
       background-image: url('../images/img_3.jpg');
       position: relative;
-      z-index: 0 ;
+      z-index: 1;
+
     }
-    &.item_4{
+
+    &.item_4 {
       background-image: url('../images/img_4.jpg');
       position: relative;
-      z-index: 0 ;
+      z-index: 1;
+
     }
   }
-.number_p{
-  font-family: '20 Kopeek Book';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 100%;
-  color: #181818;
-  top: -30px;
-}
 
-.callback{
-  .form-check{
-    padding-left: 36px;
+  .number_p {
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 100%;
+    color: #181818;
+    top: -30px;
+  }
+
+  .callback {
+    .form-check {
+      padding-left: 36px;
+    }
+  }
+
+  .firm_style {
+    padding-bottom: 134px;
+    padding-top: 68px;
   }
 }
-.firm_style{
-  padding-bottom: 134px;
-  padding-top: 68px;
-}
+  .how_much {
+
+    padding-top: 120px;
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #181818;
+    }
+
+    p:last-of-type {
+      background-color: #2B59C3;
+      color: #FFFFFF;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #FFFFFF;
+    }
+  }
+
