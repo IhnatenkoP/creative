@@ -227,19 +227,47 @@ header {
     line-height: 140%;
     color: #181818;
     padding: 10px 40px;
+
   }
 }
 
-.btn_blue {
-  display: block;
-  margin: auto;
-  text-align: center;
-  font-family: '20 Kopeek Book';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 110%;
-  color: #FFFFFF;
+//.btn_blue {
+//  display: block;
+//  margin: auto;
+//  text-align: center;
+//  font-family: '20 Kopeek Book';
+//  font-style: normal;
+//  font-weight: 400;
+//  font-size: 26px;
+//  line-height: 110%;
+//  color: #FFFFFF;
+.btn-primary{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 110%;
+    color: #FFFFFF;
+    background-color: #2B59C3;
+    padding:23px 47px;
+  }
 
 
+.callback{
+  form{
+
+    button{
+      padding:23px 47px;
+      background-color: #2B59C3;
+    }
+
+  }
+}
+.callback_input{
+  max-width: 350px;
+  height: 71px;
+  border-radius: 10px;
 }
