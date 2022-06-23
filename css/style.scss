@@ -279,5 +279,33 @@ header {
   padding-bottom: 80px;
   padding-top: 282px;
   background-image: url('../images/Quality.jpg');
-  height: 100vh;
+
+    .row{
+      h3{
+        font-family: '20 Kopeek Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+      }
+      p:nth-child(1n){
+        font-family: '20 Kopeek Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        color: #FFFFFF;
+      }
+      p:nth-child(2n){
+        font-family: '20 Kopeek';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        color: #FFFFFF;
+      }
+    }
 }
+
